@@ -3,6 +3,8 @@
 1. Resources:
 
    - Video: https://www.youtube.com/watch?v=kpcjSaRngg8&t=913s
+   - Video:
+     https://www.youtube.com/watch?v=D31P9ovJjqs
 
    - Required Extensions:
      +, Live Sass Compiler
@@ -11,6 +13,8 @@
 2. Commit History:
 
    a. 1st Commit:
+
+   - Video: https://www.youtube.com/watch?v=kpcjSaRngg8&t=913s
 
    - Basic of how to use SASS: See folder react_sass
 
@@ -33,6 +37,9 @@
 
    b. 2nd Commit: See folder sass_module
 
+   - Video:
+     https://www.youtube.com/watch?v=D31P9ovJjqs
+
    - How to use scss module:
      +, Install:
      $ npm install node-sass
@@ -43,4 +50,4 @@
    - Solved the problems in the 1st commit. Next Steps:
      +, Find out how does node-sass work
      +, Learn the basic of SASS
-     +, Finish the video
+     +, Finish the video (continue from 19:45)
