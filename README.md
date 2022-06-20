@@ -2,52 +2,26 @@
 
 1. Resources:
 
-   - Video: https://www.youtube.com/watch?v=kpcjSaRngg8&t=913s
-   - Video:
-     https://www.youtube.com/watch?v=D31P9ovJjqs
+   - Basic SASS React.js Video: https://www.youtube.com/watch?v=kpcjSaRngg8&t=913s
+   - SASS Module Video: https://www.youtube.com/watch?v=D31P9ovJjqs
+   - Fundamental Series: https://www.linkedin.com/learning/sass-essential-training-15630917/how-can-sass-help-build-sites?autoplay=true&u=2113185
 
-   - Required Extensions:
+   - Required Tools & Extensions:
+
      +, Live Sass Compiler
+
      +, SASS
 
-2. Commit History:
-
-   a. 1st Commit:
-
-   - Video: https://www.youtube.com/watch?v=kpcjSaRngg8&t=913s
-
-   - Basic of how to use SASS: See folder react_sass
-
-     +, See SASS files in /styles/
-
-     +, See SASS files in /variables/
-
-   - Problems:
-     +, How do we use SASS with large scaled project ?
-
-     +, Same class name problem, how to solve that ?
-
-     +, How to do component focused with SASS ?
-
-   - Next Steps:
-
-     +, Learn about basic of SASS
-
-     +, Learn how to practically use SASS in large React.js Project
-
-   b. 2nd Commit: See folder sass_module
-
-   - Video:
-     https://www.youtube.com/watch?v=D31P9ovJjqs
-
-   - How to use scss module:
-     +, Install:
      $ npm install node-sass
      $ npm install react-icons
 
-     +, See folder: /components/. Looks for Header.module.scss
+2. Commit History:
 
-   - Solved the problems in the 1st commit. Next Steps:
-     +, Find out how does node-sass work
-     +, Learn the basic of SASS
-     +, Finish the video (continue from 19:45)
+   - 1st Commit: See folder react_sass
+   - 2nd Commit: See folder sass_module
+
+   => See HISTORY.md
+
+3. Fundamental:
+
+   => See FUNDAMENTALS.md
