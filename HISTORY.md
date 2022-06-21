@@ -27,6 +27,7 @@
   https://www.youtube.com/watch?v=D31P9ovJjqs
 
 - How to use scss module:
+
   +, Install:
 
   $ npm install node-sass
@@ -55,15 +56,21 @@
 - Commit about Variables, Nesting and Partials
 
 - Variables:
+
   +, See FUNDAMENTALS.md for SASS variables fundamental
+
   +, See folder /fundamentals/scss/variables.scss
 
 - Nesting:
+
   +, See file /fundamentals/scss/style.scss
+
   +, See FUNDAMENTALS.md
 
 - Partials:
+
   +, you can import files and variables in SASS by partials
+
   +, Steps for Partials:
 
   > start a file with an underscore (see base.scss and variables.scss)
@@ -71,3 +78,15 @@
   > use the @use keyword
 
   > use the as shortcut
+
+## 5. 5th Commit: Parent Selector (&) and @mixin
+
+- How to use parent selector and @mixin in SASS
+
+- Parent Selector: search for '&:hover' in style.scss
+
+- @mixin:
+
+  +, @mixin is similiar to the concept of function in JavaScript
+
+  +, See how to use it in variables.scss and style.scss

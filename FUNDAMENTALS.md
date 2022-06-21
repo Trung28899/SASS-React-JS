@@ -67,4 +67,30 @@
 
       +, In SASS you can nest styling within a parent styling
 
-    - Partials
+    - Partials: Steps for Partials:
+
+      +, start a file with an underscore (see base.scss and variables.scss)
+
+      +, use the @use keyword
+
+      +, use the 'as' shortcut
+
+    - Parent Selector: The use of &
+
+      +, Put the &
+
+      +, Copies Parent
+
+      +, Use as suffix
+
+      +, Target parent present
+
+    - Mixin: function in sass
+
+      +, Create a @mixin
+
+      +, Pass an argument
+
+      +, Set defaults values
+
+      +, use @include and @import

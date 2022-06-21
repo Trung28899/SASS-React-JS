@@ -1,2 +1,9 @@
 $bg: #ead2a8;
 $primary: SlateBlue;
+$red: rgb(119, 0, 0);
+$blue: rgb(67, 67, 206);
+
+@mixin paragraphStyles($textColor) {
+  color: $textColor;
+  cursor: pointer;
+}
