@@ -37,3 +37,7 @@
   +, Find out how does node-sass work
   +, Learn the basic of SASS
   +, Finish the video (continue from 19:45)
+
+---
+
+## BEGINNING OF sass_fundementals BRANCH
