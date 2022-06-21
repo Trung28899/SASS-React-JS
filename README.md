@@ -5,6 +5,7 @@
    - Basic SASS React.js Video: https://www.youtube.com/watch?v=kpcjSaRngg8&t=913s
    - SASS Module Video: https://www.youtube.com/watch?v=D31P9ovJjqs
    - Fundamental Series: https://www.linkedin.com/learning/sass-essential-training-15630917/how-can-sass-help-build-sites?autoplay=true&u=2113185
+   - SASS official docs: https://sass-lang.com/
 
    - Required Tools & Extensions:
 
@@ -25,3 +26,10 @@
 3. Fundamental:
 
    => See FUNDAMENTALS.md
+
+4. Commands & Tools:
+
+$ npm init vite@latest
+$ npm install -D sass
+$ npm install
+$ npm run dev

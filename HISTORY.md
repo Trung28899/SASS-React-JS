@@ -41,3 +41,8 @@
 ---
 
 ## BEGINNING OF sass_fundementals BRANCH
+
+## 3. 3rd Commit: See folder fundamentals of sass_fundementals branch
+
+- See steps on how to setup sass on the 4th video of the series
+- This is the basic setup of the folder
