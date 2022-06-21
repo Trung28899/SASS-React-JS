@@ -14,6 +14,7 @@
      +, SASS
 
      $ npm install node-sass
+
      $ npm install react-icons
 
 2. Commit History:
@@ -29,7 +30,10 @@
 
 4. Commands & Tools:
 
-$ npm init vite@latest
-$ npm install -D sass
-$ npm install
-$ npm run dev
+   $ npm init vite@latest
+
+   $ npm install -D sass
+
+   $ npm install
+
+   $ npm run dev

@@ -1,0 +1,10 @@
+@use "variables" as var;
+@use "base";
+
+body {
+  padding-top: 60px;
+
+  h1 {
+    color: var.$primary;
+  }
+}

@@ -28,7 +28,9 @@
 
 - How to use scss module:
   +, Install:
+
   $ npm install node-sass
+
   $ npm install react-icons
 
   +, See folder: /components/. Looks for Header.module.scss
@@ -42,7 +44,30 @@
 
 ## BEGINNING OF sass_fundementals BRANCH
 
-## 3. 3rd Commit: See folder fundamentals of sass_fundementals branch
+## 3. 3rd Commit: Basic Setup
 
+- See folder fundamentals of sass_fundementals branch
 - See steps on how to setup sass on the 4th video of the series
 - This is the basic setup of the folder
+
+## 4. 4th Commit: Variables, Nesting and Partials:
+
+- Commit about Variables, Nesting and Partials
+
+- Variables:
+  +, See FUNDAMENTALS.md for SASS variables fundamental
+  +, See folder /fundamentals/scss/variables.scss
+
+- Nesting:
+  +, See file /fundamentals/scss/style.scss
+  +, See FUNDAMENTALS.md
+
+- Partials:
+  +, you can import files and variables in SASS by partials
+  +, Steps for Partials:
+
+  > start a file with an underscore (see base.scss and variables.scss)
+
+  > use the @use keyword
+
+  > use the as shortcut
