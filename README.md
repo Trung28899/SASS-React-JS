@@ -21,6 +21,12 @@
 
    - 1st Commit: See folder react_sass
    - 2nd Commit: See folder sass_module
+   - 3rd Commit: Basic Setup
+
+   - 4th Commit: Variables, Nesting and Partials
+     +, Partials: the @use keyword
+   - 5th Commit: Parent Selector (&), @mixin and @include
+   - 6th Commit: @extend
 
    => See HISTORY.md
 

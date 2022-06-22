@@ -85,7 +85,7 @@
 
       +, Target parent present
 
-    - Mixin: function in sass
+    - @mixin: function in sass
 
       +, Create a @mixin
 
@@ -94,3 +94,5 @@
       +, Set defaults values
 
       +, use @include and @import
+
+    - @extend: extend properties and values in sass

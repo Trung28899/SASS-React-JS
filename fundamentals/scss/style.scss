@@ -17,4 +17,9 @@ body {
   p {
     @include paragraphStyles($blue);
   }
+
+  span {
+    @extend p;
+    font-size: 2.5rem;
+  }
 }

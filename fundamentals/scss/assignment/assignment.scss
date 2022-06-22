@@ -1,0 +1,29 @@
+@import "./variables.scss";
+
+.msg {
+  border: 1px solid $white_grey;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 1rem 1.25rem;
+  margin: 1em 0;
+  display: inline-block;
+  cursor: pointer;
+
+  @include getBackGroundColor($grey);
+
+  h1 {
+    margin: 0 0 0.2em 0;
+  }
+
+  &:hover {
+    @include getBackGroundColor($grey_dark);
+  }
+
+  &-info {
+    @include getBackGroundColor($info);
+
+    &:hover {
+      @include getBackGroundColor($info_dark);
+    }
+  }
+}

@@ -1,0 +1,10 @@
+$grey: #888;
+$grey_dark: rgb(102, 102, 102);
+$white_grey: #ddd;
+$info: #33a2a2;
+$info_dark: #237070;
+
+@mixin getBackGroundColor($bgColor) {
+  background-color: $bgColor;
+  color: white;
+}

@@ -90,3 +90,11 @@
   +, @mixin is similiar to the concept of function in JavaScript
 
   +, See how to use it in variables.scss and style.scss
+
+  +, use @include to activate a mixin inside a style definition
+
+## 6. 6th Commit: @extend
+
+- Extending properties and values in SASS
+
+- See how it works in style.scss
