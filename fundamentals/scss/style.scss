@@ -3,7 +3,7 @@
 
 // This is the syntax for placeholder selector
 // This class won't be compiled, only the class that extend it will be compiled
-%h1_placeholder {
+%heading_placeholder {
   color: $primary;
   cursor: pointer;
 }
@@ -11,11 +11,16 @@
 body {
   padding-top: 60px;
 
-  h1 {
-    @extend %h1_placeholder;
+  // Using for loop to style headings
 
-    &:hover {
-      color: $red;
+  @for $index from 1 through length($fontSize) {
+    h#{$index} {
+      @extend %heading_placeholder;
+      font-size: nth($fontSize, $index);
+
+      &:hover {
+        color: $red;
+      }
     }
   }
 

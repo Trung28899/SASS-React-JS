@@ -144,3 +144,13 @@
 - See code in style.scss: usage of @each
 
 - See code in index.html to understand the concept
+
+## 12. 11st Commit: @for - iteration
+
+- See @each in FUNDAMENTALS.md
+
+- See code in variables.scss: $fontSize
+
+- See code in style.scss: usage of @for
+
+- See code in index.html to understand the concept

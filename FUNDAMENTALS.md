@@ -141,4 +141,11 @@
 ## @each:
 
     - Each works with List or Map which allows you to Emit a number of styles
+
     - Expression: @each <var> in <expression>
+
+## @for:
+
+    - The @for rule gives you a way to iteriate through a series of numbers
+
+    - Expression: for <var> to | through <expression>{...}

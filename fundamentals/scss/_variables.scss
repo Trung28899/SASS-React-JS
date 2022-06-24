@@ -11,6 +11,8 @@ $purple: rgb(150, 0, 150);
 */
 $sassText: $blue, $red "-primary", $purple "-secondary";
 
+$fontSize: 2.5rem, 2rem, 1.5rem;
+
 @mixin getSassText($textColor, $name: "") {
   .sassText#{$name} {
     color: $textColor;
