@@ -3,7 +3,9 @@ $primary: SlateBlue;
 $red: rgb(119, 0, 0);
 $blue: rgb(67, 67, 206);
 
-@mixin paragraphStyles($textColor) {
-  color: $textColor;
-  cursor: pointer;
+@mixin getSassText($textColor, $name: "") {
+  .sassText#{$name} {
+    color: $textColor;
+    cursor: pointer;
+  }
 }

@@ -14,12 +14,11 @@ body {
     }
   }
 
-  p {
-    @include paragraphStyles($blue);
-  }
+  @include getSassText($blue);
+  @include getSassText($red, "-primary");
 
   span {
-    @extend p;
+    @extend .sassText;
     font-size: 2.5rem;
   }
 }

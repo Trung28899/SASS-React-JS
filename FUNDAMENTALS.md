@@ -41,58 +41,71 @@
 
 4.  SASS Fundamentals:
 
-    - SASS variables:
+## SASS variables:
 
-      +, Global scope: variables can be declared at the top level file and can be accessed
-      in the whole folder
+    +, Global scope: variables can be declared at the top level file and can be accessed
+    in the whole folder
 
-      +, Local Scope: variables declared within the curly braces have local scope with
-      that curly braces
+    +, Local Scope: variables declared within the curly braces have local scope with
+    that curly braces
 
-      +, Shadowing: when there are 2 variables with the same name,
-      the local variable is prioritized to be the value to be used of a property
+    +, Shadowing: when there are 2 variables with the same name,
+    the local variable is prioritized to be the value to be used of a property
 
-      +, You can also use this syntax to re-define a local variable to be a
-      global variable. For example:
+    +, You can also use this syntax to re-define a local variable to be a
+    global variable. For example:
 
-      $primary-color: yellow !global;
+    $primary-color: yellow !global;
 
-      +, In SASS, the underscore sign ('\_') is the same sign as the hyphens (-).
-      So these 2 variables are the same variables:
+    +, In SASS, the underscore sign ('\_') is the same sign as the hyphens (-).
+    So these 2 variables are the same variables:
 
-      $primary-value: black; 
-      $primary_value: blue;
+    $primary-value: black;
+    $primary_value: blue;
 
-    - SASS Nesting:
+## SASS Nesting:
 
-      +, In SASS you can nest styling within a parent styling
+    +, In SASS you can nest styling within a parent styling
 
-    - Partials: Steps for Partials:
+## Partials: Steps for Partials:
 
-      +, start a file with an underscore (see base.scss and variables.scss)
+    +, start a file with an underscore (see base.scss and variables.scss)
 
-      +, use the @use keyword
+    +, use the @use keyword
 
-      +, use the 'as' shortcut
+    +, use the 'as' shortcut
 
-    - Parent Selector: The use of &
+## Parent Selector: The use of &
 
-      +, Put the &
+    +, Put the &
 
-      +, Copies Parent
+    +, Copies Parent
 
-      +, Use as suffix
+    +, Use as suffix
 
-      +, Target parent present
+    +, Target parent present
 
-    - @mixin: function in sass
+## @mixin: function in sass
 
-      +, Create a @mixin
+    +, Create a @mixin
 
-      +, Pass an argument
+    +, Pass an argument
 
-      +, Set defaults values
+    +, Set defaults values
 
-      +, use @include and @import
+    +, use @include and @import
 
-    - @extend: extend properties and values in sass
+## @extend: extend properties and values in sass
+
+## Interpolation:
+
+    - Let you work with variables that are defined by expression
+
+    - Example:
+    #{$varName + '--btn'}
+
+    - We can use this to perform:
+      +, Calculation
+      +, Lots of places
+
+    => See the interpolation commit in HISTORY.md

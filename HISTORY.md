@@ -98,3 +98,24 @@
 - Extending properties and values in SASS
 
 - See how it works in style.scss
+
+## 7. Assignment Commit: Section 2 Practice Assignment
+
+- $ npm run dev
+  See: localhost:3000/assignment.html
+
+---
+
+## SECTION 3: Working With SassScript
+
+---
+
+## 8. 7th Commit: Interpolation
+
+- Example Syntax: #{$varName + '--btn'}
+
+- See code variables.scss: @mixin getSassText
+
+- See code in style.scss
+
+- See code in index.html to understand the concept
