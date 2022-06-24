@@ -2,12 +2,18 @@
 
 @import "./variables";
 
+// This is the syntax for placeholder selector
+// This class won't be compiled, only the class that extend it will be compiled
+%h1_placeholder {
+  color: $primary;
+  cursor: pointer;
+}
+
 body {
   padding-top: 60px;
 
   h1 {
-    color: $primary;
-    cursor: pointer;
+    @extend %h1_placeholder;
 
     &:hover {
       color: $red;
@@ -15,6 +21,7 @@ body {
   }
 
   @include getSassText($blue);
+  /*  This mixin use interpolation, see variables.scss  */
   @include getSassText($red, "-primary");
 
   span {

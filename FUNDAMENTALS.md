@@ -97,7 +97,7 @@
 
 ## @extend: extend properties and values in sass
 
-## Interpolation:
+## #{$varName + '--btn'}: Interpolation:
 
     - Let you work with variables that are defined by expression
 
@@ -109,3 +109,14 @@
       +, Lots of places
 
     => See the interpolation commit in HISTORY.md
+
+## Placeholder Selectors:
+
+    - Sometime, you may want to create a class that is not something you want to compile,
+    but only something that you want to extend. That is when you use placeholder selectors
+
+    - Example Syntax:
+      %h1_placeholder {...some styles in here...}
+      .h1{@extend %h1_placeholder}
+
+    => See the placeholder commit in HISTORY.md

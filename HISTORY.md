@@ -110,7 +110,7 @@
 
 ---
 
-## 8. 7th Commit: Interpolation
+## 8. 7th Commit: Interpolation #{}
 
 - Example Syntax: #{$varName + '--btn'}
 
@@ -119,3 +119,11 @@
 - See code in style.scss
 
 - See code in index.html to understand the concept
+
+## 9. 8th Commit: placeholder selectors %placeHolder
+
+- Example Syntax:
+  %h1_placeholder {...some styles in here...}
+  .h1{@extend %h1_placeholder}
+
+- See code in style.scss: %h1_placeholder
