@@ -137,3 +137,8 @@
       +, Content in array (in SassScript) never change
       +, When we attempt to change the content in the array, we
       are actually creating a new copy of the content
+
+## @each:
+
+    - Each works with List or Map which allows you to Emit a number of styles
+    - Expression: @each <var> in <expression>

@@ -1,5 +1,4 @@
 @use "base";
-
 @import "./variables";
 
 // This is the syntax for placeholder selector
@@ -20,9 +19,13 @@ body {
     }
   }
 
-  @include getSassText($blue);
+  // @include getSassText($blue);
   /*  This mixin use interpolation, see variables.scss  */
-  @include getSassText($red, "-primary");
+  // @include getSassText($red, "-primary");
+
+  @each $textColor, $name in $sassText {
+    @include getSassText($textColor, $name);
+  }
 
   span {
     @extend .sassText;

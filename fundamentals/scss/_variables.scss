@@ -2,6 +2,14 @@ $bg: #ead2a8;
 $primary: SlateBlue;
 $red: rgb(119, 0, 0);
 $blue: rgb(67, 67, 206);
+$purple: rgb(150, 0, 150);
+
+/*
+  array of 3 different sassText. Similiar to: 
+
+  $sassText: [$blue, [$red, "-primary"], [$purple "-secondary"]]
+*/
+$sassText: $blue, $red "-primary", $purple "-secondary";
 
 @mixin getSassText($textColor, $name: "") {
   .sassText#{$name} {

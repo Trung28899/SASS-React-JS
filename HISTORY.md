@@ -134,3 +134,13 @@
 
 - Syntax on how to declare a list and list's methods:
   +, See file: array.scss
+
+## 11. 10th Commit: @each - traversing List
+
+- See @each in FUNDAMENTALS.md
+
+- See code in variables.scss: $sassText, @mixin getSassText
+
+- See code in style.scss: usage of @each
+
+- See code in index.html to understand the concept
