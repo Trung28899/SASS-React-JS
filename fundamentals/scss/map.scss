@@ -1,0 +1,23 @@
+@use "sass:map";
+
+$colorList: (
+  "primary": royalblue,
+  "secondary": tomato,
+  "accent": yellowgreen,
+);
+
+/*  #{map.get($colorList, "primary")}   */
+
+/*
+    Map Methods: 
+
+    You can use dot or hypen with map methods
+
+    map.get()   /   map-get()
+    map.set()   /   map-set()
+    map.merge() /   map-merge
+    map.deep-merge()
+
+    map.keys()  /   map.values()
+    has.key()
+*/

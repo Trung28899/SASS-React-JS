@@ -147,10 +147,18 @@
 
 ## 12. 11st Commit: @for - iteration
 
-- See @each in FUNDAMENTALS.md
+- See @for in FUNDAMENTALS.md
 
 - See code in variables.scss: $fontSize
 
 - See code in style.scss: usage of @for
 
 - See code in index.html to understand the concept
+
+## 13. 12nd Commit: Map - equivalent to the concept of Object
+
+- Map is is equivalent to the concept of Object in JavaScript
+
+- See map.scss to see how to use map
+
+- See FUNDAMENTALS.md for basic of map

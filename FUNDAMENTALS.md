@@ -149,3 +149,15 @@
     - The @for rule gives you a way to iteriate through a series of numbers
 
     - Expression: for <var> to | through <expression>{...}
+
+## Maps:
+
+    - Map is a data structure, designed to hold key - value pairs. Map is like an object in JavaScript
+
+    - Expression (Syntax): (<key>: <value>)
+    Have to use the syntax down below before declaring an object to
+    specify a map @use "sass:map"
+
+    - Keys are unquie in map
+
+    - Map is immutable like List (see above)
