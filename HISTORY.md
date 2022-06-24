@@ -127,3 +127,10 @@
   .h1{@extend %h1_placeholder}
 
 - See code in style.scss: %h1_placeholder
+
+## 10. 9th Commit: Using List (Array in SassScript)
+
+- See List in FUNDAMENTALS.md
+
+- Syntax on how to declare a list and list's methods:
+  +, See file: array.scss

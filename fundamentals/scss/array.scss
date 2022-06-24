@@ -1,0 +1,45 @@
+/*
+
+List of methods for array in SassScript: 
+
+length($myList)
+=> get the length of a list
+
+nth($myList, 2)
+=> get the 2nd element of a list
+
+set-nth($myList, 2, newValue)
+=> Set new value for the 2nd index in the myList list
+
+index($myList, orange)
+=> find the index of orange in $myList
+
+append($myList, newValue, comma | space)
+=> appending a new item and specifying if we're going to separate 
+the new value with a comma or a space
+
+join($myList, $myList2, comma | space)
+=> joining 2 arrays and specifying if we're going to separate 
+the values with a comma or a space
+
+zip($myList1, $myList2)
+=> let you join 2 types of elements
+
+is-bracketed($myList)
+=> See if the list is bracketed
+
+list-separator($myList2)
+=> See what type of saparator for this list
+
+
+==> See video (using lists) in the video series to understand more about the methods
+*/
+
+// Different commands to create a list (array)
+$myArray: primary secondary warning "item info";
+
+$myArray: primary, secondary, warning, "item info";
+
+$myArray: (primary, secondary, warning, "item info");
+
+$myArray: [primary secondary warning ];

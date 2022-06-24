@@ -120,3 +120,20 @@
       .h1{@extend %h1_placeholder}
 
     => See the placeholder commit in HISTORY.md
+
+## List: Array in SassScript
+
+    - You can create array using: Spaces and Commas
+
+    - Can also use: Brackets [] or Parenthesis ()
+
+    - Quotes when spaces
+
+    - Array in SassScript indexed at 1. First element is indexed at 1
+
+    - Negative indexes (-1) => this will access the latest element in the array
+
+    - Array in Sass is Immutable:
+      +, Content in array (in SassScript) never change
+      +, When we attempt to change the content in the array, we
+      are actually creating a new copy of the content
