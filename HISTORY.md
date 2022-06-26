@@ -162,3 +162,11 @@
 - See map.scss to see how to use map
 
 - See FUNDAMENTALS.md for basic of map
+
+## 14. 13rd Commit: Conditional statement & operators
+
+- If Else (conditional) Statement & Operators
+  => See FUNDAMENTALS.md
+
+- Built in color module in SASS:
+  https://sass-lang.com/documentation/modules/color

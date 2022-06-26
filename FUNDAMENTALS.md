@@ -39,6 +39,8 @@
     - .scss:
       +, Syntax in .scss is the most popular because it is compatible with css
 
+---
+
 4.  SASS Fundamentals:
 
 ## SASS variables:
@@ -161,3 +163,18 @@
     - Keys are unquie in map
 
     - Map is immutable like List (see above)
+
+## Operators & Conditionals in SASS
+
+    - Mathematic Operators:
+        +, -, /, = , %
+
+    - Built in methods and functions
+    => See documentation: https://sass-lang.com/documentation/
+
+    - Conditional in SASS:
+        +, @if @else
+        +, comparision operator: ==, !=, >, <=, >, >=
+        +, and or
+
+    => See example here: https://sass-lang.com/documentation/at-rules/control/if
