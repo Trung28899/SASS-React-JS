@@ -27,6 +27,17 @@
      +, Partials: the @use keyword
    - 5th Commit: Parent Selector (&), @mixin and @include
    - 6th Commit: @extend
+   - Assignment Commit: Section 2 Practice Assignment
+
+   WORKING WITH SASS SCRIPT
+
+   - 7th Commit: Interpolation #{}
+   - 8th Commit: placeholder selectors %placeHolder
+   - 9th Commit: Using List (Array in SassScript)
+   - 10th Commit: @each - traversing List
+   - 11st Commit: @for - iteration
+   - 12nd Commit: Map - equivalent to the concept of Object
+   - 13rd Commit: Conditional statement & operators
 
    => See HISTORY.md
 
