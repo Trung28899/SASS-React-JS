@@ -51,3 +51,7 @@
      +, Find out how does node-sass work
      +, Learn the basic of SASS
      +, Finish the video (continue from 19:45)
+
+   c. Branch: sass_fundamentals
+
+   - See content in this branch for sass fundamentals
